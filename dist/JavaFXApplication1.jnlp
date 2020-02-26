@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApplication1.jnlp">
+  <information>
+    <title>JavaFXApplication1</title>
+    <vendor>HP</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApplication1.jar" size="717341" download="eager" />
+    <jar href="lib\controlsfx-8.40.11.jar" size="985420" download="eager" />
+    <jar href="lib\javax.mail.jar" size="659033" download="eager" />
+    <jar href="lib\jfoenix-8.0.2.jar" size="2442326" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\smsj-20051126.jar" size="134604" download="eager" />
+    <jar href="lib\twilio-7.47.5-jar-with-dependencies.jar" size="10146514" download="eager" />
+    <jar href="lib\webcam-capture-0.3.10.jar" size="409084" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXApplication1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="GUI.JavaFXApplication1"  name="JavaFXApplication1" />
+  <update check="always"/>
+</jnlp>
